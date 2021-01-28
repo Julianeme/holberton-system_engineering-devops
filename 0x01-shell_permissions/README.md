@@ -1,0 +1,1 @@
+all the excercises of challenge 01 Shell permissions
