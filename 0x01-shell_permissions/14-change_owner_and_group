@@ -1,2 +1,2 @@
 #!/bin/bash
-chow -R betty:holberton .
+sudo chow -R betty:holberton .
