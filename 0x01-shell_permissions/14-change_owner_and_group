@@ -1,2 +1,2 @@
-chmod -R a+rX *#!/bin/bash
+#!/bin/bash
 chow betty:holberton *
