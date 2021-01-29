@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chow -R betty:holberton ./*
+sudo chown -R betty:holberton ./*
