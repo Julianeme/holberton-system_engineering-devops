@@ -1,2 +1,2 @@
 #!/bin/bash
-chow -R betty:holberton .*
+chow -R betty:holberton ./*
