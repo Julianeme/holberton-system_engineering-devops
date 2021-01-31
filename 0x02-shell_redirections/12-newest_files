@@ -1,0 +1,2 @@
+#!/bin/bash
+find * -type d | sort -M | head -n 10
