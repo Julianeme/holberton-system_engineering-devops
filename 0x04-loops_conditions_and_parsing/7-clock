@@ -3,11 +3,11 @@
 # display minutes from 1 to 59
 
 i=0
-j=0
+j=1
 while (( i<13 ))
 do
 	echo "Hour: $i"
-	j=0
+	j=1
 	while (( j<60 ))
 		do
 			echo "$j"
