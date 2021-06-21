@@ -3,4 +3,4 @@
 
 trap - SIGTERM
 id4="$(pgrep -f "7-highlander")"
-kill "$id4"
+kill -SIGTERM "$id4"
