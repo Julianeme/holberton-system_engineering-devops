@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #Bash script that kills the process 7-highlander
 
+trap - SIGTERM
 id4="$(pgrep -f "7-highlander")"
 kill "$id4"
