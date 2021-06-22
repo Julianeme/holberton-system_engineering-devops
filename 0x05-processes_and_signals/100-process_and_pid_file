@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #Bash script that kills the process 7-highlander
 
+sudo touch /var/run/holbertonscript.pid
 echo $$ > sudo /var/run/holbertonscript.pid
 trap 'echo "I hate the kill command" sudo rm /var/run/holbertonscript.pid exit' SIGTERM
 trap "echo Y U no love me?!" SIGINT
@@ -8,4 +9,5 @@ trap "sudo rm /var/run/holbertonscript.pid exit" SIGQUIT
 while ( true )
 do
 	echo "To infinity and beyond"
+	sleep 2	
 done
